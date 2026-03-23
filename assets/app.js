@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
   const cards = document.querySelectorAll('.nav-card, .placeholder-card');
-
   cards.forEach((card) => {
     card.addEventListener('pointermove', (event) => {
       const rect = card.getBoundingClientRect();
